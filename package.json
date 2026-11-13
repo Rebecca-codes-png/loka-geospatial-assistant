@@ -25,9 +25,11 @@
     "@turf/turf": "^7.4.0",
     "dotenv": "^18.0.9",
     "express": "^5.3.0",
+    "ffmpeg-static": "^5.3.0",
     "grammy": "^1.46.0"
   },
   "allowScripts": {
-    "protobufjs@7.6.6": true
+    "protobufjs@7.6.6": true,
+    "ffmpeg-static@5.3.0": true
   }
 }
