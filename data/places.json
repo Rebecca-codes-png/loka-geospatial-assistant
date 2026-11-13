@@ -1,0 +1,2982 @@
+{
+  "metadata": {
+    "generatedAt": "2026-11-03T22:05:40.349Z",
+    "source": "OpenStreetMap",
+    "totalSourceFeatures": 131476,
+    "classifiedFeatures": 207,
+    "duplicateFeatures": 60,
+    "skippedFeatures": 131269,
+    "totalUniquePlaces": 147,
+    "categoryCounts": {
+      "place_of_worship": 25,
+      "cinema": 2,
+      "school": 19,
+      "bank": 12,
+      "bakery": 2,
+      "cafe": 1,
+      "supermarket": 1,
+      "hostel": 11,
+      "university": 13,
+      "library": 2,
+      "transport_station": 5,
+      "fast_food": 2,
+      "pharmacy": 6,
+      "convenience_store": 2,
+      "clinic": 4,
+      "hospital": 19,
+      "restaurant": 1,
+      "fuel_station": 5,
+      "sports_centre": 4,
+      "stadium": 1,
+      "park": 2,
+      "bookshop": 1,
+      "hotel": 2,
+      "college": 1,
+      "shopping_mall": 1,
+      "bus_station": 2,
+      "cafeteria": 1
+    }
+  },
+  "places": [
+    {
+      "name": "75 Falolu Road",
+      "category": "place_of_worship",
+      "location": {
+        "longitude": 3.3543246,
+        "latitude": 6.5079623
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "place_of_worship"
+    },
+    {
+      "name": "Casino Cinema",
+      "category": "cinema",
+      "location": {
+        "longitude": 3.3801169,
+        "latitude": 6.4973264
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "cinema"
+    },
+    {
+      "name": "Fourier International Montessori School",
+      "category": "school",
+      "location": {
+        "longitude": 3.3732238,
+        "latitude": 6.4968417
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "school"
+    },
+    {
+      "name": "GT Bank",
+      "category": "bank",
+      "location": {
+        "longitude": 3.3792763,
+        "latitude": 6.4979726
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": "Herbert Macaulay Way",
+        "city": "Lagos",
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "bank"
+    },
+    {
+      "name": "Sheraton School",
+      "category": "school",
+      "location": {
+        "longitude": 3.3754294,
+        "latitude": 6.4873282
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "school"
+    },
+    {
+      "name": "Soro Montessori Nusery School",
+      "category": "school",
+      "location": {
+        "longitude": 3.3772247,
+        "latitude": 6.4896556
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "school"
+    },
+    {
+      "name": "St. Saviours Nusery School Complex",
+      "category": "school",
+      "location": {
+        "longitude": 3.3763014,
+        "latitude": 6.4892649
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "school"
+    },
+    {
+      "name": "Trust Nusery and Primary School",
+      "category": "school",
+      "location": {
+        "longitude": 3.3736683,
+        "latitude": 6.4947351
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "school"
+    },
+    {
+      "name": "Wisdom Pronaos",
+      "category": "place_of_worship",
+      "location": {
+        "longitude": 3.3867937,
+        "latitude": 6.5119212
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": "Johnson Street",
+        "city": "osogbo",
+        "postcode": "2002"
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "place_of_worship"
+    },
+    {
+      "name": "Mfm HQ",
+      "category": "place_of_worship",
+      "location": {
+        "longitude": 3.3875129,
+        "latitude": 6.5098571
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "place_of_worship"
+    },
+    {
+      "name": "Ade Bread",
+      "category": "bakery",
+      "location": {
+        "longitude": 3.3851383,
+        "latitude": 6.500888
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": "Sariyu Street",
+        "city": null,
+        "postcode": "+234"
+      },
+      "openingHours": "Mo-Su 10:00-22:00",
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "bakery"
+    },
+    {
+      "name": "Ozone Cinema",
+      "category": "cinema",
+      "location": {
+        "longitude": 3.3742837,
+        "latitude": 6.5063209
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": "Commercial Avenue",
+        "city": "Lagos",
+        "postcode": null
+      },
+      "openingHours": "Mo-Su 10:00-22:00",
+      "website": "https://ozonecinemas.com/",
+      "phone": "+234 8166626015",
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "cinema"
+    },
+    {
+      "name": "RCCG",
+      "category": "place_of_worship",
+      "location": {
+        "longitude": 3.3848698,
+        "latitude": 6.4998162
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "place_of_worship"
+    },
+    {
+      "name": "CCC HQ",
+      "category": "place_of_worship",
+      "location": {
+        "longitude": 3.3866599,
+        "latitude": 6.4981987
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "place_of_worship"
+    },
+    {
+      "name": "Ayo Ni o",
+      "category": "place_of_worship",
+      "location": {
+        "longitude": 3.3824631,
+        "latitude": 6.5025301
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "place_of_worship"
+    },
+    {
+      "name": "Cafe Neo",
+      "category": "cafe",
+      "location": {
+        "longitude": 3.3742223,
+        "latitude": 6.5063862
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": "Commercial Avenue",
+        "city": "Lagos",
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": "coffee_shop",
+      "source": "OpenStreetMap",
+      "classification": "cafe"
+    },
+    {
+      "name": "Domino",
+      "category": "supermarket",
+      "location": {
+        "longitude": 3.3741433,
+        "latitude": 6.5063761
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": "Commercial Avenue",
+        "city": "Lagos",
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "supermarket"
+    },
+    {
+      "name": "Moremi Hall",
+      "category": "hostel",
+      "location": {
+        "longitude": 3.3967698,
+        "latitude": 6.5175094
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hostel"
+    },
+    {
+      "name": "Faculty of Engineering",
+      "category": "university",
+      "location": {
+        "longitude": 3.3996475,
+        "latitude": 6.5177976
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "university"
+    },
+    {
+      "name": "King Jaja Hall",
+      "category": "hostel",
+      "location": {
+        "longitude": 3.3980373,
+        "latitude": 6.5162371
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": "Mo-Sa 05:00-00:00; Su 05:00-24:00",
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hostel"
+    },
+    {
+      "name": "Mariere Hall",
+      "category": "hostel",
+      "location": {
+        "longitude": 3.3980559,
+        "latitude": 6.5180142
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": "Mo-Sa 05:00-00:00; Su 05:00-24:00",
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hostel"
+    },
+    {
+      "name": "Faculty of Science",
+      "category": "university",
+      "location": {
+        "longitude": 3.3993715,
+        "latitude": 6.5152482
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "university"
+    },
+    {
+      "name": "Civil Engineering Hydraulic Basin",
+      "category": "school",
+      "location": {
+        "longitude": 3.3972197,
+        "latitude": 6.5194205
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "school"
+    },
+    {
+      "name": "Distance Learning Institute",
+      "category": "school",
+      "location": {
+        "longitude": 3.3926585,
+        "latitude": 6.5119116
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "school"
+    },
+    {
+      "name": "Faculty of Social Sciences",
+      "category": "university",
+      "location": {
+        "longitude": 3.391074,
+        "latitude": 6.5159432
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "university"
+    },
+    {
+      "name": "Department of Creative Arts",
+      "category": "university",
+      "location": {
+        "longitude": 3.3908332,
+        "latitude": 6.5141932
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "university"
+    },
+    {
+      "name": "Faculty of Environmental Sciences",
+      "category": "university",
+      "location": {
+        "longitude": 3.3872786,
+        "latitude": 6.5178903
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "university"
+    },
+    {
+      "name": "Faculty of Education",
+      "category": "university",
+      "location": {
+        "longitude": 3.3858999,
+        "latitude": 6.5163778
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "university"
+    },
+    {
+      "name": "Saburi Biobaku Hall",
+      "category": "hostel",
+      "location": {
+        "longitude": 3.3872293,
+        "latitude": 6.5151956
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hostel"
+    },
+    {
+      "name": "Queen Amina Hall",
+      "category": "hostel",
+      "location": {
+        "longitude": 3.3856983,
+        "latitude": 6.5152633
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hostel"
+    },
+    {
+      "name": "Kofoworola Hall",
+      "category": "hostel",
+      "location": {
+        "longitude": 3.3868446,
+        "latitude": 6.5155838
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hostel"
+    },
+    {
+      "name": "Unilag Main Library",
+      "category": "library",
+      "location": {
+        "longitude": 3.3998117,
+        "latitude": 6.5201116
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": "https://facebook.com/unilagbookshop",
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "library"
+    },
+    {
+      "name": "Department of Architecture",
+      "category": "university",
+      "location": {
+        "longitude": 3.4001426,
+        "latitude": 6.5183025
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "university"
+    },
+    {
+      "name": "United Bank of Africa",
+      "category": "bank",
+      "location": {
+        "longitude": 3.3996787,
+        "latitude": 6.5197506
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "bank"
+    },
+    {
+      "name": "Faculty of Law",
+      "category": "university",
+      "location": {
+        "longitude": 3.3989719,
+        "latitude": 6.5205218
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "university"
+    },
+    {
+      "name": "Faculty of Management Sciences",
+      "category": "university",
+      "location": {
+        "longitude": 3.3995784,
+        "latitude": 6.5206861
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": "http://mgtsci.unilag.edu.ng/",
+      "phone": "+23412802489",
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "university"
+    },
+    {
+      "name": "Julius Berger Hall",
+      "category": "university",
+      "location": {
+        "longitude": 3.4002085,
+        "latitude": 6.5173997
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "university"
+    },
+    {
+      "name": "Odukoya Reasearch Laboratory",
+      "category": "university",
+      "location": {
+        "longitude": 3.3984739,
+        "latitude": 6.5175839
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "university"
+    },
+    {
+      "name": "Marina/CMS Ferry Terminal",
+      "category": "transport_station",
+      "location": {
+        "longitude": 3.3898032,
+        "latitude": 6.449149
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "ferry_terminal"
+    },
+    {
+      "name": "Ilaje Waterfront Jetty Terminal Bariga",
+      "category": "transport_station",
+      "location": {
+        "longitude": 3.4000365,
+        "latitude": 6.5283141
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "ferry_terminal"
+    },
+    {
+      "name": "Ita baale",
+      "category": "fast_food",
+      "location": {
+        "longitude": 3.3875825,
+        "latitude": 6.495898
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": "Raimi Street",
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "fast_food"
+    },
+    {
+      "name": "Whayinna Primary School",
+      "category": "school",
+      "location": {
+        "longitude": 3.3883093,
+        "latitude": 6.4956426
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": "Apolo Makoko",
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "school"
+    },
+    {
+      "name": "Makoko Dream Primary School",
+      "category": "school",
+      "location": {
+        "longitude": 3.3883804,
+        "latitude": 6.4954037
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": "Bale Towe",
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "school"
+    },
+    {
+      "name": "Doyisem Best Academy",
+      "category": "school",
+      "location": {
+        "longitude": 3.3875777,
+        "latitude": 6.494686
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": "Azinpono Lane Migbewe1",
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "school"
+    },
+    {
+      "name": "Makoko Dream Nursery School",
+      "category": "school",
+      "location": {
+        "longitude": 3.3881164,
+        "latitude": 6.4957128
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": "Bale Towe",
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "school"
+    },
+    {
+      "name": "Patient Medicine Shop",
+      "category": "pharmacy",
+      "location": {
+        "longitude": 3.389105,
+        "latitude": 6.4938677
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": "Migbewe I",
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "pharmacy"
+    },
+    {
+      "name": "Mou Dried Fire wood",
+      "category": "convenience_store",
+      "location": {
+        "longitude": 3.3914495,
+        "latitude": 6.4951962
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": "Yansewe water way, Otogaji way, Adogbo 2",
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "convenience"
+    },
+    {
+      "name": "Dried Wood Vendor",
+      "category": "convenience_store",
+      "location": {
+        "longitude": 3.3908012,
+        "latitude": 6.4937855
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": "Migbewe II",
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "convenience"
+    },
+    {
+      "name": "Chicken Republic",
+      "category": "fast_food",
+      "location": {
+        "longitude": 3.3870555,
+        "latitude": 6.5292437
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": "Bariga Road",
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "fast_food"
+    },
+    {
+      "name": "Pharmacy",
+      "category": "pharmacy",
+      "location": {
+        "longitude": 3.3880884,
+        "latitude": 6.4900979
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "pharmacy"
+    },
+    {
+      "name": "Ecobank",
+      "category": "bank",
+      "location": {
+        "longitude": 3.3611718,
+        "latitude": 6.5251316
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "bank"
+    },
+    {
+      "name": "Olountooba Mosque",
+      "category": "place_of_worship",
+      "location": {
+        "longitude": 3.38823,
+        "latitude": 6.494525
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": "Olountooba Street, Migbewe",
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "place_of_worship"
+    },
+    {
+      "name": "Olountoba Central Mosque",
+      "category": "place_of_worship",
+      "location": {
+        "longitude": 3.3880765,
+        "latitude": 6.4945599
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": "Migbewe 1, Baale Aji Area, Makoko",
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "place_of_worship"
+    },
+    {
+      "name": "Message of Christ into the End Time",
+      "category": "place_of_worship",
+      "location": {
+        "longitude": 3.3890117,
+        "latitude": 6.4939127
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": "Azinpono lane, Migbewe 1, makoko",
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "place_of_worship"
+    },
+    {
+      "name": "Catholic Church",
+      "category": "place_of_worship",
+      "location": {
+        "longitude": 3.3878056,
+        "latitude": 6.4958279
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": "Raimi Street Beside Celestial Church",
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "place_of_worship"
+    },
+    {
+      "name": "Celestial Church of Christ",
+      "category": "place_of_worship",
+      "location": {
+        "longitude": 3.3877183,
+        "latitude": 6.4956733
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": "Raimi Street, Ita Baale",
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "place_of_worship"
+    },
+    {
+      "name": "St Raphael Celestial Church of Christ",
+      "category": "place_of_worship",
+      "location": {
+        "longitude": 3.3873398,
+        "latitude": 6.49463
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": "N0 2 clinic, acts aposts",
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "place_of_worship"
+    },
+    {
+      "name": "St. Andre Du Lac Catholic Church",
+      "category": "place_of_worship",
+      "location": {
+        "longitude": 3.3881482,
+        "latitude": 6.4955341
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "place_of_worship"
+    },
+    {
+      "name": "Access Bank",
+      "category": "bank",
+      "location": {
+        "longitude": 3.3808872,
+        "latitude": 6.5330755
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": "Odunlami Street",
+        "city": "Somolu, Lagos",
+        "postcode": "100231"
+      },
+      "openingHours": "Mo-Fr 08:00-17:00",
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "bank"
+    },
+    {
+      "name": "Asogbon Pry Healthcare Centre",
+      "category": "clinic",
+      "location": {
+        "longitude": 3.3961901,
+        "latitude": 6.5350285
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "clinic"
+    },
+    {
+      "name": "Shalom Health Center",
+      "category": "clinic",
+      "location": {
+        "longitude": 3.3964137,
+        "latitude": 6.5317312
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "clinic"
+    },
+    {
+      "name": "Uche Kendu Medicine store",
+      "category": "pharmacy",
+      "location": {
+        "longitude": 3.3968791,
+        "latitude": 6.529092
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "pharmacy"
+    },
+    {
+      "name": "Akwukwe Patent Medicine store",
+      "category": "pharmacy",
+      "location": {
+        "longitude": 3.396152,
+        "latitude": 6.5282808
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "pharmacy"
+    },
+    {
+      "name": "HealthPlus Pharmacy",
+      "category": "pharmacy",
+      "location": {
+        "longitude": 3.374251,
+        "latitude": 6.5063686
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "pharmacy"
+    },
+    {
+      "name": "Polaris Bank",
+      "category": "bank",
+      "location": {
+        "longitude": 3.3751071,
+        "latitude": 6.5279381
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "bank"
+    },
+    {
+      "name": "Lagos Presbyterian Church, Yaba",
+      "category": "place_of_worship",
+      "location": {
+        "longitude": 3.3702879,
+        "latitude": 6.513289
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "place_of_worship"
+    },
+    {
+      "name": "FirstBank Nig. Plc",
+      "category": "bank",
+      "location": {
+        "longitude": 3.3711594,
+        "latitude": 6.5209857
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": "Tu 08:00-16:00",
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "bank"
+    },
+    {
+      "name": "ROYAL DIADEM CHAPEL INT'L",
+      "category": "place_of_worship",
+      "location": {
+        "longitude": 3.3849335,
+        "latitude": 6.5110021
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": "Majaro Street",
+        "city": "IKORODU",
+        "postcode": "104233"
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "place_of_worship"
+    },
+    {
+      "name": "Deeper Life Bible Church (Abiodun district)",
+      "category": "place_of_worship",
+      "location": {
+        "longitude": 3.3593839,
+        "latitude": 6.5298168
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "place_of_worship"
+    },
+    {
+      "name": "St Claire Specialist Clinic",
+      "category": "hospital",
+      "location": {
+        "longitude": 3.3596589,
+        "latitude": 6.5157248
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hospital"
+    },
+    {
+      "name": "VNusamin Clinic",
+      "category": "hospital",
+      "location": {
+        "longitude": 3.3602279,
+        "latitude": 6.5153217
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hospital"
+    },
+    {
+      "name": "A Aand A Medical Diagostic Center",
+      "category": "hospital",
+      "location": {
+        "longitude": 3.3561402,
+        "latitude": 6.5147048
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hospital"
+    },
+    {
+      "name": "Kayode Health Center Onipanu",
+      "category": "hospital",
+      "location": {
+        "longitude": 3.3646367,
+        "latitude": 6.5326059
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hospital"
+    },
+    {
+      "name": "Legus Specialist Hospital",
+      "category": "hospital",
+      "location": {
+        "longitude": 3.3658692,
+        "latitude": 6.5307818
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hospital"
+    },
+    {
+      "name": "Redeemtion Medical Clinic",
+      "category": "hospital",
+      "location": {
+        "longitude": 3.3585763,
+        "latitude": 6.5288085
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hospital"
+    },
+    {
+      "name": "Continental Hospital And Maternity Home",
+      "category": "hospital",
+      "location": {
+        "longitude": 3.3587185,
+        "latitude": 6.5281423
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hospital"
+    },
+    {
+      "name": "Kajla Primary Health Center",
+      "category": "hospital",
+      "location": {
+        "longitude": 3.3657673,
+        "latitude": 6.5271457
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hospital"
+    },
+    {
+      "name": "Jag-Bon Medical Center",
+      "category": "hospital",
+      "location": {
+        "longitude": 3.367095,
+        "latitude": 6.520313
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hospital"
+    },
+    {
+      "name": "Bm Hospital",
+      "category": "hospital",
+      "location": {
+        "longitude": 3.3648741,
+        "latitude": 6.5211258
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hospital"
+    },
+    {
+      "name": "Mobolaji Johnson Station",
+      "category": "transport_station",
+      "location": {
+        "longitude": 3.3736846,
+        "latitude": 6.5017657
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "name_inference"
+    },
+    {
+      "name": "Oyingbo",
+      "category": "transport_station",
+      "location": {
+        "longitude": 3.3814602,
+        "latitude": 6.48343
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "name_inference"
+    },
+    {
+      "name": "Yaba",
+      "category": "transport_station",
+      "location": {
+        "longitude": 3.3699982,
+        "latitude": 6.5114693
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "name_inference"
+    },
+    {
+      "name": "bokku MART",
+      "category": "bakery",
+      "location": {
+        "longitude": 3.3872161,
+        "latitude": 6.5372678
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": "Abule Okuta Road",
+        "city": "Lagos",
+        "postcode": "100001"
+      },
+      "openingHours": "Mo-Su 09:00-21:00",
+      "website": null,
+      "phone": "0916 486 7254",
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "bakery"
+    },
+    {
+      "name": "Faculty of Art Unilag",
+      "category": "school",
+      "location": {
+        "longitude": 3.3978209,
+        "latitude": 6.5198069
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "school"
+    },
+    {
+      "name": "EcoBank, Unilag Branch.",
+      "category": "bank",
+      "location": {
+        "longitude": 3.3972973,
+        "latitude": 6.5186599
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": "Unilag Bookshop Building, University of Lagos, Nigeria.",
+        "city": "Lagos",
+        "postcode": "100272"
+      },
+      "openingHours": "Mo-Fr 08:00-17:00",
+      "website": null,
+      "phone": "07041450800",
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "bank"
+    },
+    {
+      "name": "yamoriah",
+      "category": "restaurant",
+      "location": {
+        "longitude": 3.3980219,
+        "latitude": 6.5198884
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": "University Road",
+        "city": "Lagos",
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": "african",
+      "source": "OpenStreetMap",
+      "classification": "restaurant"
+    },
+    {
+      "name": "Moremi extension",
+      "category": "hostel",
+      "location": {
+        "longitude": 3.396667,
+        "latitude": 6.5177063
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": "Tafawa Balewa Way",
+        "city": "Lagos",
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hostel"
+    },
+    {
+      "name": "First Bank",
+      "category": "bank",
+      "location": {
+        "longitude": 3.3907735,
+        "latitude": 6.5127916
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": "Ransome Kuti Road",
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": "Mo-Fr 09:00-17:00",
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "bank"
+    },
+    {
+      "name": "International School, Unilag",
+      "category": "school",
+      "location": {
+        "longitude": 3.3913478,
+        "latitude": 6.5119755
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": "DLI Road",
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "school"
+    },
+    {
+      "name": "Women Society Hall",
+      "category": "hostel",
+      "location": {
+        "longitude": 3.3931792,
+        "latitude": 6.5110054
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": "DLI Road",
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": "Mo-Su 08:00-23:00",
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hostel"
+    },
+    {
+      "name": "Honors Hall",
+      "category": "hostel",
+      "location": {
+        "longitude": 3.3931463,
+        "latitude": 6.5106482
+      },
+      "geometryType": "Point",
+      "address": {
+        "street": "DLI Road",
+        "city": "Lagos",
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hostel"
+    },
+    {
+      "name": "Total Filling Station",
+      "category": "fuel_station",
+      "location": {
+        "longitude": 3.3587105499999996,
+        "latitude": 6.51211305
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "fuel"
+    },
+    {
+      "name": "Lagos National Stadium Complex",
+      "category": "sports_centre",
+      "location": {
+        "longitude": 3.3645741,
+        "latitude": 6.498268899999999
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "sports_centre"
+    },
+    {
+      "name": "Lagos National Stadium",
+      "category": "stadium",
+      "location": {
+        "longitude": 3.36497635,
+        "latitude": 6.4970774
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "stadium"
+    },
+    {
+      "name": "Evans Square",
+      "category": "sports_centre",
+      "location": {
+        "longitude": 3.3816864,
+        "latitude": 6.4901628
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "sports_centre"
+    },
+    {
+      "name": "YabaTech Sports Field",
+      "category": "sports_centre",
+      "location": {
+        "longitude": 3.3741304999999997,
+        "latitude": 6.518607599999999
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": "Lagos",
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "sports_centre"
+    },
+    {
+      "name": "National Orthopaedic Hospital Igbobi",
+      "category": "hospital",
+      "location": {
+        "longitude": 3.37064515,
+        "latitude": 6.5314302
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": "https://www.nohlagos.gov.ng/",
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hospital"
+    },
+    {
+      "name": "CMS Grammar School",
+      "category": "school",
+      "location": {
+        "longitude": 3.3875044,
+        "latitude": 6.5331414
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "school"
+    },
+    {
+      "name": "Kokobire",
+      "category": "park",
+      "location": {
+        "longitude": 3.3942738,
+        "latitude": 6.50824755
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "park"
+    },
+    {
+      "name": "University of Lagos",
+      "category": "university",
+      "location": {
+        "longitude": 3.3941414,
+        "latitude": 6.5120106
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "university"
+    },
+    {
+      "name": "Chapel of Christ Our Light",
+      "category": "place_of_worship",
+      "location": {
+        "longitude": 3.3895417,
+        "latitude": 6.518541
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "place_of_worship"
+    },
+    {
+      "name": "University of Lagos Bookshop",
+      "category": "bookshop",
+      "location": {
+        "longitude": 3.3974322,
+        "latitude": 6.51865015
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "books"
+    },
+    {
+      "name": "Guest House",
+      "category": "hotel",
+      "location": {
+        "longitude": 3.3989301999999997,
+        "latitude": 6.5218256
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": "Otunba Payne Street",
+        "city": "Lagos",
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": "+234 9099930754",
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hotel"
+    },
+    {
+      "name": "Forte Oil",
+      "category": "fuel_station",
+      "location": {
+        "longitude": 3.36788925,
+        "latitude": 6.53243945
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "fuel"
+    },
+    {
+      "name": "Yaba College of Technology",
+      "category": "college",
+      "location": {
+        "longitude": 3.3742354,
+        "latitude": 6.51856785
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": "Herbert Macaulay Way",
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": "https://www.yabatech.edu.ng/",
+      "phone": "+234 7037431055",
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "college"
+    },
+    {
+      "name": "Tejuosho Shopping Centre",
+      "category": "shopping_mall",
+      "location": {
+        "longitude": 3.3697531,
+        "latitude": 6.5081485
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": "Ojuelegba Road",
+        "city": "Lagos",
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": "https://tejuoshoshoppingcentre.com",
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "mall"
+    },
+    {
+      "name": "St. Judes Anglican Church",
+      "category": "place_of_worship",
+      "location": {
+        "longitude": 3.384036,
+        "latitude": 6.4849083499999995
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "place_of_worship"
+    },
+    {
+      "name": "Swimming Pool Facility",
+      "category": "sports_centre",
+      "location": {
+        "longitude": 3.3899323,
+        "latitude": 6.5171653
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "sports_centre"
+    },
+    {
+      "name": "UNILAG Medical Centre",
+      "category": "clinic",
+      "location": {
+        "longitude": 3.3965452,
+        "latitude": 6.51454225
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "clinic"
+    },
+    {
+      "name": "Unilag Shuttle Bus Station",
+      "category": "bus_station",
+      "location": {
+        "longitude": 3.39484495,
+        "latitude": 6.51842185
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "bus_station"
+    },
+    {
+      "name": "Yaba Bus Terminal",
+      "category": "bus_station",
+      "location": {
+        "longitude": 3.3707986500000002,
+        "latitude": 6.51081455
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "bus_station"
+    },
+    {
+      "name": "Lagos University Teaching Hospital",
+      "category": "hospital",
+      "location": {
+        "longitude": 3.3558834500000003,
+        "latitude": 6.51803825
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": "https://www.luth.org.ng/",
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hospital"
+    },
+    {
+      "name": "Randle General Hospital",
+      "category": "hospital",
+      "location": {
+        "longitude": 3.35756715,
+        "latitude": 6.5081637
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hospital"
+    },
+    {
+      "name": "Federal College of Education (Technical), Akoka",
+      "category": "university",
+      "location": {
+        "longitude": 3.3838319500000003,
+        "latitude": 6.5214802
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": "https://nce.fcet-akoka.edu.ng",
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "university"
+    },
+    {
+      "name": "Igbobi College",
+      "category": "school",
+      "location": {
+        "longitude": 3.37111335,
+        "latitude": 6.5282902499999995
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": "https://igbobicollegeyaba.com",
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "school"
+    },
+    {
+      "name": "Sports Complex",
+      "category": "park",
+      "location": {
+        "longitude": 3.3928850500000003,
+        "latitude": 6.50104045
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "park"
+    },
+    {
+      "name": "Zenith Bank/CITM",
+      "category": "bank",
+      "location": {
+        "longitude": 3.3741231,
+        "latitude": 6.5175212
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "bank"
+    },
+    {
+      "name": "College Hall",
+      "category": "school",
+      "location": {
+        "longitude": 3.374917,
+        "latitude": 6.516572050000001
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "school"
+    },
+    {
+      "name": "Central Library",
+      "category": "library",
+      "location": {
+        "longitude": 3.375323,
+        "latitude": 6.517602849999999
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "library"
+    },
+    {
+      "name": "College Central mosque",
+      "category": "place_of_worship",
+      "location": {
+        "longitude": 3.37240775,
+        "latitude": 6.51925655
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "place_of_worship"
+    },
+    {
+      "name": "Quaters",
+      "category": "hostel",
+      "location": {
+        "longitude": 3.3721696999999997,
+        "latitude": 6.5194586999999995
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hostel"
+    },
+    {
+      "name": "Girls hostel",
+      "category": "hostel",
+      "location": {
+        "longitude": 3.37482145,
+        "latitude": 6.5196144
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hostel"
+    },
+    {
+      "name": "Ebute Metta Health Centre",
+      "category": "clinic",
+      "location": {
+        "longitude": 3.3849268500000003,
+        "latitude": 6.4880478
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": "Mo-Sa 09:00-18:00",
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "clinic"
+    },
+    {
+      "name": "Ebute Metta Primary School",
+      "category": "school",
+      "location": {
+        "longitude": 3.3853192500000002,
+        "latitude": 6.4882060500000005
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "school"
+    },
+    {
+      "name": "Christ Anglican Church, Ebute-Metta",
+      "category": "place_of_worship",
+      "location": {
+        "longitude": 3.38562965,
+        "latitude": 6.4896296
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "place_of_worship"
+    },
+    {
+      "name": "St. Saviour's School Ebute-Metta",
+      "category": "school",
+      "location": {
+        "longitude": 3.3755840499999996,
+        "latitude": 6.49048575
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": "http://stsavioursebutemetta.org",
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "school"
+    },
+    {
+      "name": "Saint Pauls Catholic Church",
+      "category": "place_of_worship",
+      "location": {
+        "longitude": 3.38237375,
+        "latitude": 6.4846482000000005
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "place_of_worship"
+    },
+    {
+      "name": "Ascon",
+      "category": "fuel_station",
+      "location": {
+        "longitude": 3.38066375,
+        "latitude": 6.48829375
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "fuel"
+    },
+    {
+      "name": "Total",
+      "category": "fuel_station",
+      "location": {
+        "longitude": 3.37977955,
+        "latitude": 6.49044275
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "fuel"
+    },
+    {
+      "name": "St. Judes Anglican Primary School",
+      "category": "school",
+      "location": {
+        "longitude": 3.3835337,
+        "latitude": 6.48518795
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "school"
+    },
+    {
+      "name": "Zenith Bank",
+      "category": "bank",
+      "location": {
+        "longitude": 3.36037035,
+        "latitude": 6.5257945500000005
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "bank"
+    },
+    {
+      "name": "Conoil",
+      "category": "fuel_station",
+      "location": {
+        "longitude": 3.35967665,
+        "latitude": 6.52621635
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "fuel"
+    },
+    {
+      "name": "Sterling Bank",
+      "category": "bank",
+      "location": {
+        "longitude": 3.3609908,
+        "latitude": 6.52532495
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "bank"
+    },
+    {
+      "name": "GTBank",
+      "category": "bank",
+      "location": {
+        "longitude": 3.36169765,
+        "latitude": 6.524705
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "bank"
+    },
+    {
+      "name": "Lagos Emergency Operations Center",
+      "category": "hospital",
+      "location": {
+        "longitude": 3.3710344,
+        "latitude": 6.5113657499999995
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hospital"
+    },
+    {
+      "name": "Lagos Health Center Harvey Road",
+      "category": "hospital",
+      "location": {
+        "longitude": 3.37344265,
+        "latitude": 6.510791749999999
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": "Harvey Road",
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": "24/7",
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hospital"
+    },
+    {
+      "name": "Federal Psychiatric Hospital Yaba",
+      "category": "hospital",
+      "location": {
+        "longitude": 3.3731926000000003,
+        "latitude": 6.5099506
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": "Murtala Mohammed Way",
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": "24/7",
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hospital"
+    },
+    {
+      "name": "MARANATHA MEDICAL CENTER",
+      "category": "hospital",
+      "location": {
+        "longitude": 3.3803186,
+        "latitude": 6.5292043
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hospital"
+    },
+    {
+      "name": "Ayeitoro PHC",
+      "category": "hospital",
+      "location": {
+        "longitude": 3.387415,
+        "latitude": 6.4927586999999995
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hospital"
+    },
+    {
+      "name": "Federal Medical Centre",
+      "category": "hospital",
+      "location": {
+        "longitude": 3.3806660500000003,
+        "latitude": 6.48412735
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hospital"
+    },
+    {
+      "name": "CCC OMOALADE ALAFIA PARISH SOMOLU LAGOS",
+      "category": "place_of_worship",
+      "location": {
+        "longitude": 3.37722575,
+        "latitude": 6.54090895
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "place_of_worship"
+    },
+    {
+      "name": "Obalenaro hotel",
+      "category": "hotel",
+      "location": {
+        "longitude": 3.3847106499999997,
+        "latitude": 6.54133255
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "hotel"
+    },
+    {
+      "name": "Assemblies of God Church, Bariga",
+      "category": "place_of_worship",
+      "location": {
+        "longitude": 3.3916732,
+        "latitude": 6.5416377
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "place_of_worship"
+    },
+    {
+      "name": "The Gospel Church of Holy C&S",
+      "category": "place_of_worship",
+      "location": {
+        "longitude": 3.37673305,
+        "latitude": 6.53960315
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "place_of_worship"
+    },
+    {
+      "name": "Unilag Pharmacy",
+      "category": "pharmacy",
+      "location": {
+        "longitude": 3.39448325,
+        "latitude": 6.5185644499999995
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "pharmacy"
+    },
+    {
+      "name": "Unilag Islamic Center",
+      "category": "place_of_worship",
+      "location": {
+        "longitude": 3.3902768,
+        "latitude": 6.5189492
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": "University of Lagos, Akoka",
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "place_of_worship"
+    },
+    {
+      "name": "Unilag Cafeteria",
+      "category": "cafeteria",
+      "location": {
+        "longitude": 3.3916904,
+        "latitude": 6.51951585
+      },
+      "geometryType": "MultiPolygon",
+      "address": {
+        "street": null,
+        "city": null,
+        "postcode": null
+      },
+      "openingHours": null,
+      "website": null,
+      "phone": null,
+      "cuisine": null,
+      "source": "OpenStreetMap",
+      "classification": "yes"
+    }
+  ]
+}

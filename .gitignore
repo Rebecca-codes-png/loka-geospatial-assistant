@@ -1,0 +1,29 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Temporary audio and recordings
+*.wav
+*.ogg
+*.mp3
+
+# Large raw OpenStreetMap datasets
+*.osm.geojson
+*.osm.pbf
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Experimental files and backups
+data/places.expanded.test.json
+src/conversations/messageProcessorbackup.js
