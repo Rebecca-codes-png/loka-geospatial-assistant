@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --background: #f5f6f8;
+    --surface: #ffffff;
+    --text: #172033;
+    --muted: #7b8495;
+    --primary: #4659b8;
+    --primary-dark: #354797;
+    --success: #188765;
+    --border: #e8eaf0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: var(--background);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+}
+
+button {
+    font: inherit;
+    cursor: pointer;
+    border: none;
+}
+
+.ar-app {
+    width: 100%;
+    max-width: 650px;
+    min-height: 100vh;
+    margin: auto;
+    background: var(--background);
+}
+
+.top-bar {
+    height: 68px;
+    padding: 0 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    color: var(--text);
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+    font-size: 19px;
+    font-weight: 800;
+    letter-spacing: -0.8px;
+}
+
+.brand small {
+    display: block;
+    margin-top: 2px;
+    color: var(--muted);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+.brand-icon {
+    width: 38px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+    background: var(--primary);
+    border-radius: 11px;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.exit-button {
+    padding: 9px 15px;
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    background: white;
+    color: var(--text);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.camera-container {
+    position: relative;
+    height: min(58vh, 510px);
+    min-height: 340px;
+    overflow: hidden;
+    background: #dfe3e9;
+}
+
+#camera {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+.camera-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 18px;
+    pointer-events: none;
+}
+
+.destination-marker {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 11px 16px;
+    border: 1px solid rgba(255,255,255,0.7);
+    border-radius: 9px;
+    background: rgba(255,255,255,0.94);
+    color: var(--text);
+    font-size: 12px;
+    font-weight: 700;
+    box-shadow: 0 3px 15px rgba(20,30,50,0.12);
+}
+
+.marker-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--success);
+}
+
+.direction-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+}
+
+.direction-arrow {
+    width: 105px;
+    height: 105px;
+    display: grid;
+    place-items: center;
+    filter: drop-shadow(0 3px 5px rgba(0,0,0,0.18));
+    transition: transform 0.25s ease;
+}
+
+.direction-arrow svg {
+    width: 100%;
+    height: 100%;
+}
+
+#directionLabel {
+    padding: 9px 15px;
+    border-radius: 7px;
+    background: rgba(255,255,255,0.96);
+    color: var(--primary-dark);
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 10px rgba(20,30,50,0.12);
+}
+
+.camera-status {
+    padding: 8px 13px;
+    border-radius: 7px;
+    background: rgba(255,255,255,0.94);
+    color: var(--text);
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.navigation-panel {
+    position: relative;
+    padding: 23px 21px 30px;
+    background: var(--surface);
+}
+
+.next-turn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid var(--border);
+}
+
+.panel-label {
+    color: var(--primary);
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.next-turn h2 {
+    max-width: 380px;
+    margin-top: 9px;
+    font-family: 'Manrope', sans-serif;
+    font-size: clamp(17px, 4vw, 22px);
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: -0.5px;
+}
+
+.turn-distance {
+    min-width: 75px;
+    text-align: right;
+}
+
+.turn-distance strong {
+    display: block;
+    color: var(--text);
+    font-family: 'Manrope', sans-serif;
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.turn-distance span {
+    display: block;
+    margin-top: 4px;
+    color: var(--muted);
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.journey-progress {
+    padding: 22px 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.progress-heading {
+    display: flex;
+    justify-content: space-between;
+    color: var(--muted);
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.progress-heading span:last-child {
+    color: var(--success);
+    font-weight: 700;
+}
+
+.progress-track {
+    height: 5px;
+    margin-top: 13px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #edf0f5;
+}
+
+#progressBar {
+    width: 0%;
+    height: 100%;
+    border-radius: inherit;
+    background: var(--primary);
+    transition: width 0.4s ease;
+}
+
+.journey-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 23px 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.stat strong {
+    font-family: 'Manrope', sans-serif;
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.stat span {
+    color: var(--muted);
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+}
+
+.navigation-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 21px;
+}
+
+.navigation-actions button {
+    min-height: 49px;
+    padding: 0 16px;
+    border-radius: 9px;
+    font-size: 12px;
+    font-weight: 700;
+    transition: background 0.2s ease;
+}
+
+#startButton {
+    flex: 1;
+    background: var(--primary);
+    color: white;
+}
+
+#startButton:hover {
+    background: var(--primary-dark);
+}
+
+#voiceButton {
+    background: #f0f1f6;
+    color: var(--text);
+    border: 1px solid var(--border);
+}
+
+#statusMessage {
+    margin-top: 15px;
+    color: var(--muted);
+    font-size: 11px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+button:disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+}
+
+@media (max-width: 400px) {
+    .camera-container {
+        min-height: 320px;
+    }
+
+    .navigation-panel {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .stat strong {
+        font-size: 16px;
+    }
+
+    .navigation-actions button {
+        padding: 0 11px;
+        font-size: 11px;
+    }
+}

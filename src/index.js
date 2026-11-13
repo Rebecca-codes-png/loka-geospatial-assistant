@@ -4,7 +4,7 @@
 
 require("dotenv").config();
 
-const { Bot, InputFile } = require("grammy");
+const { Bot, InputFile, InlineKeyboard } = require("grammy");
 const { hydrateFiles } = require("@grammyjs/files");
 
 const fs = require("node:fs/promises");
@@ -40,6 +40,10 @@ const {
     convertToOgg
 } = require("./services/audioService");
 
+const {
+    createArWebService
+} = require("./services/arWebService");
+
 // ========================================
 // SESSION STORAGE
 // ========================================
@@ -64,6 +68,36 @@ if (!token) {
 const bot = new Bot(token);
 
 bot.api.config.use(hydrateFiles(bot.token));
+
+// ========================================
+// HELPER: AR NAVIGATION BUTTON
+// ========================================
+
+async function sendArLaunchButton(ctx) {
+        if (ctx.chat.type !== "private") {
+        return;
+    }
+    
+    const arUrl = process.env.AR_WEB_APP_URL;
+
+    if (!arUrl) {
+        console.log(
+            "AR_WEB_APP_URL is not configured yet."
+        );
+
+        return;
+    }
+
+    const keyboard = new InlineKeyboard()
+        .webApp("Open AR Navigation", arUrl);
+
+    await ctx.reply(
+        "Your AR navigation interface is ready.",
+        {
+            reply_markup: keyboard
+        }
+    );
+}
 
 // ========================================
 // HELPER: VALIDATE LOCATION
@@ -213,6 +247,7 @@ async function processLiveLocation(ctx, chatId, location) {
                 navigation.destination.name
             )
         );
+        await sendArLaunchButton(ctx);
 
     } catch (error) {
         navigation.rerouting = false;
@@ -811,6 +846,7 @@ if (result.status === "location_found") {
                 ),
                 languageResult
             );
+            await sendArLaunchButton(ctx);
 
             if (isLive) {
                 await replyInUserLanguage(
@@ -910,7 +946,16 @@ bot.catch((error) => {
 });
 
 // ========================================
-// START LOKA
+// START AR WEB SERVICE
+// ========================================
+
+createArWebService({
+    botToken: token,
+    activeNavigations
+});
+
+// ========================================
+// START LOKA BOT
 // ========================================
 
 bot.start();

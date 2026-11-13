@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#f5f6f8">
+
+    <title>LOKA AR Navigation</title>
+
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+    <link rel="stylesheet" href="ar.css">
+</head>
+
+<body>
+
+    <main class="ar-app">
+
+        <header class="top-bar">
+            <a href="#" class="brand">
+                <span class="brand-icon">L</span>
+                <span>LOKA <small>AR NAVIGATION</small></span>
+            </a>
+
+            <button id="exitButton" class="exit-button">
+                Exit
+            </button>
+        </header>
+
+        <section class="camera-container">
+
+            <video
+                id="camera"
+                autoplay
+                playsinline
+                muted
+            ></video>
+
+            <div class="camera-overlay">
+
+                <div class="destination-marker">
+                    <span class="marker-dot"></span>
+                    <span id="destinationName">Loading destination...</span>
+                </div>
+
+                <div class="direction-display">
+
+                    <div class="direction-arrow" id="directionArrow">
+                        <svg viewBox="0 0 120 120">
+                            <path
+                                d="M60 8 L108 105 L60 83 L12 105 Z"
+                                fill="#8b9cff"
+                                stroke="#ffffff"
+                                stroke-width="4"
+                                stroke-linejoin="round"
+                            />
+                        </svg>
+                    </div>
+
+                    <span id="directionLabel">
+                        PREPARING NAVIGATION
+                    </span>
+
+                </div>
+
+                <div class="camera-status" id="cameraStatus">
+                    Initialising camera...
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="navigation-panel">
+
+            <div class="next-turn">
+
+                <div>
+                    <span class="panel-label">NEXT DIRECTION</span>
+
+                    <h2 id="nextInstruction">
+                        Preparing your route...
+                    </h2>
+                </div>
+
+                <div class="turn-distance">
+                    <strong id="nextTurnDistance">--</strong>
+                    <span>TO TURN</span>
+                </div>
+
+            </div>
+
+            <div class="journey-progress">
+
+                <div class="progress-heading">
+                    <span>JOURNEY PROGRESS</span>
+                    <span id="progressPercentage">0%</span>
+                </div>
+
+                <div class="progress-track">
+                    <div id="progressBar"></div>
+                </div>
+
+            </div>
+
+            <div class="journey-stats">
+
+                <div class="stat">
+                    <strong id="remainingDistance">--</strong>
+                    <span>REMAINING</span>
+                </div>
+
+                <div class="stat">
+                    <strong id="remainingTime">--</strong>
+                    <span>ESTIMATED TIME</span>
+                </div>
+
+                <div class="stat">
+                    <strong id="compassHeading">--</strong>
+                    <span>HEADING</span>
+                </div>
+
+            </div>
+
+            <div class="navigation-actions">
+
+                <button id="startButton">
+                    Start AR Navigation
+                </button>
+
+                <button id="voiceButton">
+                    Enable Voice
+                </button>
+
+            </div>
+
+            <p id="statusMessage">
+                Waiting for navigation permissions.
+            </p>
+
+        </section>
+
+    </main>
+
+    <script src="ar.js"></script>
+
+</body>
+</html>
